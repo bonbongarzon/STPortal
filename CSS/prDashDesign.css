@@ -363,3 +363,13 @@ input {
     border-bottom: 1px solid gray;
 }
 
+.pr-side-btn-bar a{
+margin: 10px 0px;
+background-color: #195905;
+padding: 5px 40px;
+font-weight: 400;
+font-size: 11px;
+color: white;
+border-radius: 42px;
+text-decoration: none;
+}

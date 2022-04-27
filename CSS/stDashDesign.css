@@ -6,6 +6,18 @@
     font-family: 'Poppins', sans-serif;
 
 }
+body::-webkit-scrollbar {
+    width: 10px;
+
+
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 10px;
+  }
+   
 
 body {
     background-color: #ffffff;
@@ -84,8 +96,7 @@ nav ul li a {
 
 .st_location {
     font-weight: 600;
-    font-size: 10pt;
-    margin: 10px;
+    font-size: 8pt;margin: 0px 10px;
     text-align: center;
 }
 
@@ -97,6 +108,7 @@ nav ul li a {
 
 .profilepic {
     border-radius: 20px;
+    height: 100px;
 }
 
 .st_location_cont {
@@ -364,7 +376,7 @@ td {
 
 .acc-info table {
     text-align: left;
-    margin: 20px 50px;
+    margin: 20px 100px;
 }
 
 .names td {
